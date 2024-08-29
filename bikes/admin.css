@@ -1,0 +1,102 @@
+.abc123{
+  
+    overflow: hidden;
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+    background-image: url(https://cdn.wallpapersafari.com/52/61/g5r14W.jpg); 
+    background-repeat: no-repeat;
+    
+  }
+  
+  .heading001{
+    border: #000000;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #ffffff;
+  }
+    
+  .table123{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    position: relative;
+    top: 50px;
+  }
+  
+  
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 700px;
+  
+    justify-content: center;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 15px;
+    justify-content: space-evenly;
+  }
+  
+  /* /#customers tr:nth-child(even){background-color: #f2f2f2;}/ */
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000000;
+    color: white; 
+    
+  }
+  
+  
+  
+  #customers th.heltab{
+    width: 30px;
+    padding-right: 10px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    
+  }
+  .buttons01{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    color: #000000;
+  }
+  .but{
+    background-color: aqua;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: larger;
+    font-style: italic;
+    background-image:url(https://www.pixelstalk.net/wp-content/uploads/2016/04/Backgrounds-download-stars-wallpaper-HD.jpg) ;
+  }
+  .butt{
+    text-decoration: none;
+    color:green;
+
+  }
+  .viewbtn
+  {
+    text-decoration: none;
+    color: wheat;
+    border: #000000;
+  }
+  .deletebtn
+  {
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+  }
+  
